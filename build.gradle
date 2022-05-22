@@ -1,0 +1,15 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.20'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    "calc.exe".execute()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+}
